@@ -3,7 +3,7 @@ import "./PlaceOrder.css";
 import { StoreContext } from "../../Context/StoreContext";
 import { db } from "../../firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
-import { AuthContext } from "../../context/AuthContext";
+import { AuthContext } from "../../Context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
