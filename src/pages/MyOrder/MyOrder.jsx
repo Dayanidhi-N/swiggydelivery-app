@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import "./MyOrder.css";
 import { StoreContext } from "../../Context/StoreContext";
-import { AuthContext } from "../../context/AuthContext";
+import { AuthContext } from "../../Context/AuthContext";
 import { db } from "../../firebase";
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { assets } from "../../assets/assets";
